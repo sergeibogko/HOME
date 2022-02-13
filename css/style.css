@@ -77,7 +77,78 @@ body {
   color: #d0662d;
   margin-bottom: 110px;
 }
-
+.project__name {
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.project__size {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.project__area {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.project__price {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #17753b;
+  margin-bottom: 30px;
+}
+.project__images {
+  margin-bottom: 130px;
+}
+.download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f1dfbc;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.download__link {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 1px solid#fff;
+  font-size: 32px;
+  background-color: #17753b;
+  border: 5px solid #effd15;
+  padding: 23px 67px;
+}
+.gallery__title {
+  text-transform: uppercase;
+  padding-top: 100px;
+  padding-bottom: 40px;
+  font-weight: 700;
+  color: #d07a2d;
+  font-size: 41px;
+}
+.gallery__text {
+  padding-bottom: 50px;
+  font-size: 25px;
+}
+.gallery__inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery__inner img {
+  display: block;
+}
 .footer {
   text-align: center;
+}
+.footer .phone {
+  font-weight: 700;
+}
+.footer__email {
+  padding-top: 40px;
+  padding-bottom: 150px;
+  color: #2f8bc5;
+  text-decoration: underline;
+  font-size: 30px;
+  font-weight: 300;
+  font-family: "Lato", sans-serif;
 }
